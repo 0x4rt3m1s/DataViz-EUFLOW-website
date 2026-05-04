@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <div class="intro-section-suisse">
+    <div class="intro-section-europe">
         <nav id="navbar">
             <div id="nav-logo">EUFlow</div>
             <ul id="nav-links">
@@ -23,16 +23,16 @@
                 <li><a href="switzerland.html">Switzerland</a></li>
             </ul>
         </nav>
-        <span id="intro-text-europe-1">Tourism in Europe</span><br>
-        <span id="intro-text-europe-2">Explore where, when, and how much Europeans travel across desinations</span>
+        <span class="intro-tourism-title">Tourism in Europe</span><br>
+        <span class="intro-tourism-subtitle">Explore where, when, and how much Europeans travel across desinations</span>
     </div>
 
     <div class="feature-section">
-        <div>
+        <div class="feature-section-block-odd">
             <div class="section-number">
                 <span>1</span>
             </div>
-            <p id="part-suisse-1">Destination Popularity</p>
+            <p class="feature-section-block-title">Destination Popularity</p>
             <p id="part-suisse-2">Where do Europeans travel?</p>
             <div class="frame"> 
             <!-- D3.js -->
@@ -50,11 +50,23 @@
             </div>
         </div>
 
-        <div>
+        <div class="feature-section-block-even">
             <div class="section-number">
                 <span>2</span>
             </div>
-            <p id="part-suisse-1">Seasonality</p>
+            <p class="feature-section-block-title">Seasonality</p>
+            <p id="part-suisse-2">How much do people spend?</p>
+            <div class="frame"> 
+            <!-- D3.js -->
+            
+            </div>
+        </div>
+
+        <div class="feature-section-block-odd">
+            <div class="section-number">
+                <span>3</span>
+            </div>
+            <p class="feature-section-block-title">Travel Expenditure</p>
             <p id="part-suisse-2">How much do people spend?</p>
             <div class="frame"> 
             <!-- D3.js -->
@@ -64,24 +76,24 @@
 
     </div>
 
-    <div class="ready-to-explore">
-        <p id="explore-text-1">Want a deeper look at a specific country?</p>
-        <button id="button-explore" onclick="window.location.href='switzerland.html'">■ &nbsp;Explore Switzerland</button>
+    <div class="cta-section">
+        <p class="cta-section-text">Want a deeper look at a specific country?</p>
+        <button id="button-explore-suisse" onclick="window.location.href='switzerland.html'">■ &nbsp;Explore Switzerland</button>
     </div>
 
     <!-- Footer -->
-    <footer id="footer">
+    <footer class="footer-europe">
         <div class="footer-col">
-            <ul id="footer-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#europe">Europe</a></li>
-                <li><a href="#switzerland">Switzerland</a></li>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="europe.html">Europe</a></li>
+                <li><a href="switzerland.html">Switzerland</a></li>
             </ul>
-            <div id="copywrite">© 2026  EUFlow · All rights reserved.</div>
+            <div class="copywrite">© 2026  EUFlow · All rights reserved.</div>
         </div>
 
-        <div id="footer-bottom">
-            <div id="footer-logo">EUFlow</div>
+        <div class="footer-bottom">
+            <div class="footer-logo">EUFlow</div>
         </div>
     </footer>
 
