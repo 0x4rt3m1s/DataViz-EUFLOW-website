@@ -69,6 +69,20 @@
 }
 
 
+
+/* java script */
+#navbar.scrolled #nav-logo {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+#navbar.scrolled #nav-links a {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+
+
 /* introduction text */
 #intro-text-1, #intro-text-2, #intro-text-3{
     display: block;
@@ -127,14 +141,14 @@
 }
 
 .button-explore {
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 16px;
     /* gap: 10px; */
-    color: white;
+    color: black;
     font-family: "Geist Mono";
     font-size: 14px;
     font-style: normal;
@@ -348,7 +362,26 @@
 }
 
 
-/* Europe page */
+/* explore buttons */
+#button-explore-start {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    color: white;
+    font-family: "Geist Mono";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* margin-top: 24px; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 .intro-section-europe {
     /* background-color: black; */
     /* aspect-ratio: 104 / 103; */
