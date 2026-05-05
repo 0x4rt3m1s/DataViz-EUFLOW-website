@@ -41,11 +41,13 @@
     box-sizing: border-box;
 }
 
-#nav-logo {
-    color: #F5F5F5;
-    font-size: 20px;
-    font-weight: 600;
+#nav-logo a {
+    color: white;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    /* opacity: 0.85; */
+    transition: opacity 0.2s;
 }
 
 #nav-links {
@@ -71,7 +73,7 @@
 
 
 /* java script */
-#navbar.scrolled #nav-logo {
+#navbar.scrolled #nav-logo a {
     color: black;
     transition: color 0.3s ease;
 }
